@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .btn {
+    @apply bg-blue-500 text-white font-bold  py-2 px-4 rounded cursor-pointer
+  }
+
+  .headerLink {
+    @apply hidden md:inline cursor-pointer
+  }
+  .link{
+    @apply hover:text-blue-500 hover:underline cursor-pointer text-gray-600
+  }
+}
