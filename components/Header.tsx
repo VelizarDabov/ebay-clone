@@ -1,7 +1,6 @@
 import {
   BellIcon,
   ChevronDownIcon,
-  MagnifyingGlassCircleIcon,
   MagnifyingGlassIcon,
   ShoppingCartIcon,
 } from "@heroicons/react/24/outline";
@@ -37,6 +36,7 @@ function Header({}: Props) {
         <div className="h-16 w-16 sm:w-28 md:w-44 cursor-pointer flex-shrink-0">
           <Link href="/">
             <Image
+            priority={true}
               className="h-full w-full object-contain"
               alt="logo"
               src="https://links.papareact.com/bdb"
